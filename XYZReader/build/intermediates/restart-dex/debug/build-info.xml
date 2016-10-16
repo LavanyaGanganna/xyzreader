@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="560dpi"
+    format="7"
+    timestamp="2207504408520"
+    token="812449661544884048" >
+
+    <task
+        name="javac"
+        duration="1773" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="436" />
+    <task
+        name="verifier"
+        duration="152" />
+
+    <artifact
+        location="/Users/lavanya/Downloads/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="2207504408520" >
+        <artifact
+            location="/Users/lavanya/Downloads/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

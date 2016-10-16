@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b84ba9b3d12bf1d8e1e1b087c2128f9cb3986306">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_669ed8386a564e5d074c4c69efd6b1ca53dbc23c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_283e97e402e07bca7491743f4b42dc94af6a928b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_eeb2d3d4a9567a56492ce1979e44906717f3c206/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_0129c70b8e22a9d210128d2a7d5eadad768f4e73/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_7b1f7d595abe5b087cc4a5aa10dddf6cf4343e59/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_53ede3cb109a16d99616927047303f833911f8c7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_cb1ecc3d89698160941d1f9fd201464cd8f1b555/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6dcb5a028c347db43fea7a779a263400b347a016">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c0fc2f866566486edf8c0c53a05e30c3c1ea25c2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b8a6d75241d58c27d210b16a983f779fa2adc8e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_20e80f31a02fb94c637860610b003ece342fa485/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_38a5877980dd4f6816bf1f52550f9b90737350a6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_d6678a74ba75fadbf314728536bb0ce73ce4740a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_30658ae345f471e6845ea86fc173dacccfcc5a8b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_dd24e0758fb792f40682d5cfb6c7de88355b5f3c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/libs/volley.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/2/volley_41af8b0c1ba6c90c421da7b19d20fd420bbc357f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.1.2_76dd7d968c7bdbe93d820105f95256c26ab978bb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fcc914f71cc9a9448770812da4e62aea37760871/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bb143f769699d7dca13a20b3871c8684189be01c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3b7105277df9a8013468215c451ddefac2499d3a">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.2.1_220831d090f7a067c716def8c91206139c00c6a7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_e21c7d5557b2aa2909edf0d0486a835d8b845c4a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_feb3e1f28d5f69d141ecc2136b69d9900bb6bf23/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_de915c0cffe2e7d760c707143fb8b0872c330502/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_302b37010a468aec30950d41c266d6897d44500b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/lavanya/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_81ee88062c251dea30ddde611f7d54dbc89b4629/classes.dex" />
+    </item>
+
+</items>

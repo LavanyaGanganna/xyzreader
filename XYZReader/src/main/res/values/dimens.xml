@@ -1,0 +1,28 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">22sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="upbuttonwidth">56dp</dimen>
+    <dimen name="appbarheight">130dp</dimen>
+    <dimen name="appbarelevation">0dp</dimen>
+    <dimen name="imgpadding">30dp</dimen>
+    <dimen name="tooleftmargin">120dp</dimen>
+    <dimen name="bottompadding">28dp</dimen>
+    <dimen name="appbarheights">450dp</dimen>
+    <dimen name="appelevation">4dp</dimen>
+    <dimen name="imgbottom">40dp</dimen>
+    <dimen name="toolbarheight">150dp</dimen>
+    <dimen name="linearheight">165dp</dimen>
+    <dimen name="textpadding">10dp</dimen>
+    <dimen name="fabelevate">6dp</dimen>
+    <dimen name="framemargin">110dp</dimen>
+    <dimen name="textsizes">16sp</dimen>
+    <dimen name="marginht">4dp</dimen>
+    <dimen name="textpadmgn">16dp</dimen>
+
+</resources>
