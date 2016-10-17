@@ -1,7 +1,7 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
                                     xmlns:app="http://schemas.android.com/apk/res-auto"
                                     android:layout_width="match_parent"
-                                    android:layout_height="180dp"
+                                    android:layout_height="wrap_content"
                                     android:layout_marginBottom="@dimen/marginht"
                                     android:layout_marginLeft="@dimen/marginht"
                                     android:layout_marginRight="@dimen/marginht"
@@ -11,7 +11,7 @@
                                     android:foreground="?selectableItemBackground"
                                     app:cardBackgroundColor="@color/theme_primary_light">
 
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -23,14 +23,15 @@
             <com.example.xyzreader.ui.DynamicHeightNetworkImageView
                 android:id="@+id/thumbnail"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="@dimen/zerohight"
                 android:layout_gravity="top"
-                android:background="@color/photo_placeholder"/>
+                android:background="@color/photo_placeholder"
+                android:scaleType="centerCrop"/>
         </FrameLayout>
 
         <FrameLayout android:layout_width="match_parent"
                      android:layout_height="match_parent"
-                     android:layout_marginTop="@dimen/framemargin"
+                     android:layout_below="@id/frame"
                      android:background="@color/theme_primary_light">
 
             <TextView
@@ -62,6 +63,6 @@
                      android:textColor="@android:color/black"/>-->
 
         </FrameLayout>
-    </FrameLayout>
+    </RelativeLayout>
 
 </android.support.v7.widget.CardView>

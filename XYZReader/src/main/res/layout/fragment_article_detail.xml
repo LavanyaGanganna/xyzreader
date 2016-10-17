@@ -38,6 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginBottom="@dimen/imgbottom"
+                        android:adjustViewBounds="true"
                         android:scaleType="fitXY"
                         app:layout_collapseMode="parallax"/>
                 </FrameLayout>
@@ -70,7 +71,7 @@
                         android:fontFamily="sans-serif"
                         android:lineSpacingMultiplier="0.9"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                        android:textColor="@android:color/black"
+                        android:textColor="@android:color/white"
                         android:textSize="@dimen/detail_title_text_size"
                         android:textStyle="bold"/>
 
@@ -79,7 +80,7 @@
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@android:color/black"/>
+                        android:textColor="@android:color/white"/>
                 </LinearLayout>
 
             </android.support.design.widget.CollapsingToolbarLayout>
@@ -144,7 +145,8 @@
         app:layout_anchor="@id/article_body"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:pressedTranslationZ="@dimen/fab_press_translation_z"
-        app:rippleColor="@color/theme_accent"/>
+        app:rippleColor="@color/theme_accent"
+        app:useCompatPadding="true"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
 

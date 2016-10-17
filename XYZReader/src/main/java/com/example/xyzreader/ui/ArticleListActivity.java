@@ -26,6 +26,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
@@ -54,6 +55,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 	private RecyclerView mRecyclerView;
 	AppBarLayout appBarLayout;
 	boolean isConnected;
+	Adapter adapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +85,6 @@ public class ArticleListActivity extends AppCompatActivity implements
 
 				} else {
 					mToolbar.setTitle("");
-
 				}
 			}
 		});
@@ -94,13 +95,9 @@ public class ArticleListActivity extends AppCompatActivity implements
 			@Override
 			public void onRefresh() {
 				refresh();
-				getSupportLoaderManager().restartLoader(0, null, ArticleListActivity.this);
-				mSwipeRefreshLayout.setRefreshing(false);
 			}
 		});
 		mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-		mRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
-		mRecyclerView.setAdapter(null);
 		getSupportLoaderManager().initLoader(0, null, this);
 
 		if (savedInstanceState == null) {
@@ -108,12 +105,13 @@ public class ArticleListActivity extends AppCompatActivity implements
 		}
 	}
 
+
 	private void refresh() {
 
 		if (isConnected)
 			startService(new Intent(this, UpdaterService.class));
 		else {
-			Toast.makeText(this, "No interner connection", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show();
 		}
 	}
 
@@ -155,16 +153,23 @@ public class ArticleListActivity extends AppCompatActivity implements
 
 	@Override
 	public void onLoadFinished(android.support.v4.content.Loader<Cursor> loader, Cursor cursor) {
-		Adapter adapter = new Adapter(cursor, this);
+		adapter = new Adapter(cursor, this);
 		adapter.setHasStableIds(true);
+		adapter.notifyDataSetChanged();
+		int columnCount = getResources().getInteger(R.integer.list_column_count);
+		StaggeredGridLayoutManager sglm =
+				new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
+		mRecyclerView.setLayoutManager(sglm);
+		mRecyclerView.setHasFixedSize(true);
 		mRecyclerView.setAdapter(adapter);
+
 	}
 
 	@Override
 	public void onLoaderReset(android.support.v4.content.Loader<Cursor> loader) {
 		mRecyclerView.setAdapter(null);
-	}
 
+	}
 
 	private class Adapter extends RecyclerView.Adapter<ViewHolder> {
 		private Cursor mCursor;
